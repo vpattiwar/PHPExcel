@@ -35,7 +35,8 @@ define('EOL',(PHP_SAPI == 'cli') ? PHP_EOL : '<br />');
 date_default_timezone_set('Europe/London');
 
 /** Include PHPExcel */
-require_once '../Classes/PHPExcel.php';
+$cwd = getcwd();
+require_once "$cwd/Classes/PHPExcel.php";
 
 
 //	Change these values to select the PDF Rendering library that you wish to use

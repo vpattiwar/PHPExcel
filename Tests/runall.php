@@ -85,6 +85,7 @@ $aTests = array(
 	, 'XMLReader.php'
 	, 'GnumericReader.php'
 );
+$cwd = getcwd();
 
 // First, clear all results
 foreach ($aTests as $sTest) {
@@ -97,10 +98,12 @@ foreach ($aTests as $sTest) {
 
 // Run all tests
 foreach ($aTests as $sTest) {
+    $scriptPath = "$cwd/Tests/$sTest";
 	echo '============== TEST ==============' . "\r\n";
 	echo 'Test name: ' . $sTest . "\r\n";
+	echo "In cwd: $cwd/Tests/$sTest \r\n";
 	echo "\r\n";
-	echo shell_exec('php ' . $sTest);
+	echo shell_exec("$(which php) $scriptPath");
 	echo "\r\n";
 	echo "\r\n";
 }

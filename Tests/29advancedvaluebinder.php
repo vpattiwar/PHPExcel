@@ -33,7 +33,8 @@ ini_set('display_startup_errors', TRUE);
 define('EOL',(PHP_SAPI == 'cli') ? PHP_EOL : '<br />');
 
 /** PHPExcel */
-require_once '../Classes/PHPExcel.php';
+$cwd = getcwd();
+require_once "$cwd/Classes/PHPExcel.php";
 
 
 // Set timezone

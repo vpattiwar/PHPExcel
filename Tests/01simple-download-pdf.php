@@ -35,7 +35,8 @@ if (PHP_SAPI == 'cli')
 	die('This example should only be run from a Web Browser');
 
 /** Include PHPExcel */
-require_once '../Classes/PHPExcel.php';
+$cwd = getcwd();
+require_once "$cwd/Classes/PHPExcel.php";
 
 
 //	Change these values to select the Rendering library that you wish to use
