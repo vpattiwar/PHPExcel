@@ -26,7 +26,7 @@
  */
 
 /** Error reporting */
-error_reporting(E_ALL);
+error_reporting(E_ALL &~ E_NOTICE &~ E_DEPRECATED);
 
 if (PHP_SAPI != 'cli') {
 	die ('This script executes all tests, and should only be run from the command line');

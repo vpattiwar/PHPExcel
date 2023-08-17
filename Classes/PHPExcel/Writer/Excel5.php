@@ -33,6 +33,7 @@
  * @package    PHPExcel_Writer_Excel5
  * @copyright  Copyright (c) 2006 - 2012 PHPExcel (http://www.codeplex.com/PHPExcel)
  */
+#[AllowDynamicProperties]
 class PHPExcel_Writer_Excel5 implements PHPExcel_Writer_IWriter
 {
 	/**

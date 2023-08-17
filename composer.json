@@ -11,5 +11,8 @@
     "minimum-stability": "stable",
     "require-dev": {
         "rector/rector": "^0.17.11"
-    }
+    },
+  "require": {
+    "ext-iconv": "*"
+  }
 }

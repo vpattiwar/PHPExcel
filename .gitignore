@@ -4,3 +4,4 @@ unitTests/codeCoverage
 *.buildpath
 *.project
 /vendor/
+/runall-output.txt
