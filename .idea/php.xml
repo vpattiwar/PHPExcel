@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/rector/rector" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/slim/twig-view" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/respect/validation" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/respect/stringifier" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/jasig/phpcas" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/setasign/fpdf" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/aws/aws-crt-php" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/mandrill/mandrill" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/dyorg/slim-token-authentication" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/tuupola/callable-handler" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/tuupola/http-factory" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/tuupola/slim-jwt-auth" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/composer" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/ayesh/composer-preload" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/ayesh/php-timer" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/mikehaertl/php-tmpfile" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/mikehaertl/php-pdftk" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/adyen/php-api-library" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/mikehaertl/php-shellcommand" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/league/flysystem-aws-s3-v3" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/league/flysystem-ziparchive" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/league/flysystem-sftp" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/v3backend/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/rector/rector" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/pear/pear_exception" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/pear/db" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/pear/http" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/pear/console_getopt" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/pear/html_quickform" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/pear/mail" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/pear/pear-core-minimal" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/composer" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/apereo/phpcas" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/smarty/smarty" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/mikehaertl/php-shellcommand" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/mikehaertl/php-pdftk" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/mikehaertl/php-tmpfile" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/league/flysystem-sftp-v3" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/league/flysystem-ziparchive" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/league/flysystem-aws-s3-v3" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/mandrill/mandrill" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/aws/aws-crt-php" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/vendor/masterminds/html5" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

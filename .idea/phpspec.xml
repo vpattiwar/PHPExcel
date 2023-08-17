@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPSpec">
+    <suites>
+      <PhpSpecSuiteConfiguration>
+        <option name="myPath" value="$PROJECT_DIR$" />
+      </PhpSpecSuiteConfiguration>
+      <PhpSpecSuiteConfiguration>
+        <option name="myPath" value="$PROJECT_DIR$/../netstreamdocker/aws-invoicing" />
+      </PhpSpecSuiteConfiguration>
+      <PhpSpecSuiteConfiguration>
+        <option name="myPath" value="$PROJECT_DIR$/../netstreamdocker/aws-invoicing" />
+      </PhpSpecSuiteConfiguration>
+      <PhpSpecSuiteConfiguration>
+        <option name="myPath" value="$PROJECT_DIR$/../netstreamdocker/aws-invoicing" />
+      </PhpSpecSuiteConfiguration>
+      <PhpSpecSuiteConfiguration>
+        <option name="namespace" value="App" />
+        <option name="specPrefix" value="tests" />
+        <option name="myPath" value="$PROJECT_DIR$/../netstreamdocker/netstream4" />
+      </PhpSpecSuiteConfiguration>
+    </suites>
+  </component>
+</project>
