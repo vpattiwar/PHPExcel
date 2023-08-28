@@ -29,7 +29,7 @@ PHPExcel is a library written in pure PHP and providing a set of classes that al
  * PHP extension php_gd2 enabled (optional, but required for exact column width autocalculation)
 
 ## Warning
-It does not work with EXCEL5 for filter 
+It does not work with EXCEL5 for
 
 ## Want to contribute?
 Fork us!
