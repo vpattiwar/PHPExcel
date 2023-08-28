@@ -31,11 +31,11 @@ error_reporting(E_ALL);
 date_default_timezone_set('Europe/London');
 
 /** PHPExcel_IOFactory */
-require_once '../Classes/PHPExcel/IOFactory.php';
+require_once '/srv/PHPExcel/Classes/PHPExcel/IOFactory.php';
 
 
 echo date('H:i:s') , " Load from SYLK file" , PHP_EOL;
-$objPHPExcel = PHPExcel_IOFactory::load("SylkTest.slk");
+$objPHPExcel = PHPExcel_IOFactory::load("/srv/PHPExcel/Tests/SylkTest.slk");
 
 echo date('H:i:s') , " Write to Excel2007 format" , PHP_EOL;
 $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');

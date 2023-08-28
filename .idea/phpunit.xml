@@ -3,9 +3,10 @@
   <component name="PHPUnit">
     <option name="directories">
       <list>
+        <option value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/libs/dompdf/tests" />
+        <option value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/tests" />
         <option value="$PROJECT_DIR$/../netstreamdocker/aws-invoicing/tests" />
         <option value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/classes/dompdf/tests" />
-        <option value="$PROJECT_DIR$/../netstreamdocker/netstream/src/new/libs/dompdf/tests" />
         <option value="$PROJECT_DIR$/../netstreamdocker/netstream4/tests" />
       </list>
     </option>

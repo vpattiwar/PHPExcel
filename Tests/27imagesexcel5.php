@@ -42,7 +42,7 @@ require_once "$cwd/Classes/PHPExcel.php";
 // Read from Excel5 (.xls) template
 echo date('H:i:s') , " Load Excel2007 template file" , EOL;
 $objReader = PHPExcel_IOFactory::createReader('Excel5');
-$objPHPExcel = $objReader->load("templates/27template.xls");
+$objPHPExcel = $objReader->load("/srv/PHPExcel/Tests/templates/27template.xls");
 
 // Export to Excel2007 (.xlsx)
 echo date('H:i:s') , " Write to Excel5 format" , EOL;

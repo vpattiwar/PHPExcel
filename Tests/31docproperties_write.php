@@ -40,7 +40,7 @@ require_once "$cwd/Classes/PHPExcel.php";
 
 
 $inputFileType = 'Excel2007';
-$inputFileName = 'templates/31docproperties.xlsx';
+$inputFileName = '/srv/PHPExcel/Tests/templates/31docproperties.xlsx';
 
 
 echo date('H:i:s') , " Load Tests from $inputFileType file" , EOL;

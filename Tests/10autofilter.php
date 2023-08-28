@@ -1,4 +1,4 @@
-<?php
+`/** @noinspection PhpUnhandledExceptionInspection *//** @noinspection PhpUnhandledExceptionInspection *//** @noinspection PhpUnhandledExceptionInspection *//** @noinspection PhpUnhandledExceptionInspection *//** @noinspection PhpUnhandledExceptionInspection *//** @noinspection PhpUnhandledExceptionInspection *//** @noinspection PhpUnhandledExceptionInspection *//** @noinspection PhpUnhandledExceptionInspection *//** @noinspection PhpUnhandledExceptionInspection */<?php
 /**
  * PHPExcel
  *
@@ -30,13 +30,13 @@ error_reporting(E_ALL);
 ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 
-define('EOL',(PHP_SAPI == 'cli') ? PHP_EOL : '<br />');
+const EOL = (PHP_SAPI == 'cli') ? PHP_EOL : '<br />';
 
 date_default_timezone_set('Europe/London');
 
 /** Include PHPExcel */
 $cwd = getcwd();
-require_once "$cwd/Classes/PHPExcel.php";
+require_once "/srv/PHPExcel/Classes/PHPExcel.php";
 
 // Create new PHPExcel object
 echo date('H:i:s').' Create new PHPExcel object'.EOL;

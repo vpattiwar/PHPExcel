@@ -31,14 +31,14 @@ error_reporting(E_ALL);
 date_default_timezone_set('Europe/London');
 
 /** PHPExcel_IOFactory */
-require_once '../Classes/PHPExcel/IOFactory.php';
+require_once '/srv/PHPExcel/Classes/PHPExcel/IOFactory.php';
 
 
 echo date('H:i:s') , " Load from Excel2003XML file" , PHP_EOL;
 $callStartTime = microtime(true);
 
 $objReader = PHPExcel_IOFactory::createReader('Excel2003XML');
-$objPHPExcel = $objReader->load("Excel2003XMLTest.xml");
+$objPHPExcel = $objReader->load("/srv/PHPExcel/Tests/Excel2003XMLTest.xml");
 
 
 $callEndTime = microtime(true);

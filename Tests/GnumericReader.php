@@ -31,13 +31,13 @@ error_reporting(E_ALL);
 date_default_timezone_set('Europe/London');
 
 /** PHPExcel_IOFactory */
-require_once '../Classes/PHPExcel/IOFactory.php';
+require_once '/srv/PHPExcel/Classes/PHPExcel/IOFactory.php';
 
 echo date('H:i:s') , " Load from Gnumeric file" , PHP_EOL;
 $callStartTime = microtime(true);
 
 $objReader = PHPExcel_IOFactory::createReader('Gnumeric');
-$objPHPExcel = $objReader->load("GnumericTest.gnumeric");
+$objPHPExcel = $objReader->load("/srv/PHPExcel/Tests/GnumericTest.gnumeric");
 
 
 $callEndTime = microtime(true);

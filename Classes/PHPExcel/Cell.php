@@ -527,8 +527,9 @@ class PHPExcel_Cell
 	 *	@throws	PHPExcel_Exception
 	 */
 	public static function coordinateFromString($pCoordinateString = 'A1')
-	{
-		if (preg_match("/^([$]?[A-Z]{1,3})([$]?\d{1,7})$/", $pCoordinateString, $matches)) {
+	{   echo $pCoordinateString;
+//        $pCoordinateString=str_replace('?@', '', $pCoordinateString);
+		if (preg_match('/^(?<col>\$?[A-Z]{1,3})(?<row>\$?\d{1,7})$/i', $pCoordinateString, $matches)) {
 			return array($matches[1],$matches[2]);
 		} elseif ((strpos($pCoordinateString,':') !== FALSE) || (strpos($pCoordinateString,',') !== FALSE)) {
 			throw new PHPExcel_Exception('Cell coordinate string can not be a range of cells');
@@ -787,6 +788,7 @@ class PHPExcel_Cell
 				$_indexCache[$pColumnIndex] = chr(64 + ($pColumnIndex / 26)) .
 											  chr(65 + $pColumnIndex % 26);
 			} else {
+                $pColumnIndex = intval($pColumnIndex);
 				$_indexCache[$pColumnIndex] = chr(64 + (($pColumnIndex - 26) / 676)) .
 											  chr(65 + ((($pColumnIndex - 26) % 676) / 26)) .
 											  chr(65 + $pColumnIndex % 26);

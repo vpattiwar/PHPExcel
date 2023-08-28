@@ -1,0 +1,1605 @@
+============== TEST ==============
+Test name: 01simple.php
+In cwd: /srv/PHPExcel/Tests/01simple.php 
+
+05:59:47 Create new PHPExcel object
+05:59:47 Set document properties
+05:59:47 Add some data
+05:59:47 Rename worksheet
+05:59:47 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 02types.php
+In cwd: /srv/PHPExcel/Tests/02types.php 
+
+05:59:47 Create new PHPExcel object
+05:59:47 Set document properties
+05:59:47 Set default font
+05:59:47 Add some data
+05:59:47 Rename worksheet
+05:59:47 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 02types-xls.php
+In cwd: /srv/PHPExcel/Tests/02types-xls.php 
+
+05:59:47 Create new PHPExcel object
+05:59:47 Set document properties
+05:59:47 Set default font
+05:59:47 Add some data
+05:59:47 Rename worksheet
+05:59:47 Write to Excel5 format
+05:59:47 File written to 02types-xls.xls
+05:59:47 Reload workbook from saved file
+array(11) {
+  [0]=>
+  array(3) {
+    [0]=>
+    string(6) "String"
+    [1]=>
+    string(6) "Simple"
+    [2]=>
+    string(8) "PHPExcel"
+  }
+  [1]=>
+  array(3) {
+    [0]=>
+    string(6) "String"
+    [1]=>
+    string(7) "Symbols"
+    [2]=>
+    string(15) "!+&=()~§±æþ"
+  }
+  [2]=>
+  array(3) {
+    [0]=>
+    string(6) "String"
+    [1]=>
+    string(5) "UTF-8"
+    [2]=>
+    string(60) "Создать MS Excel Книги из PHP скриптов"
+  }
+  [3]=>
+  array(3) {
+    [0]=>
+    string(6) "Number"
+    [1]=>
+    string(7) "Integer"
+    [2]=>
+    float(12)
+  }
+  [4]=>
+  array(3) {
+    [0]=>
+    string(6) "Number"
+    [1]=>
+    string(5) "Float"
+    [2]=>
+    float(34.56)
+  }
+  [5]=>
+  array(3) {
+    [0]=>
+    string(6) "Number"
+    [1]=>
+    string(8) "Negative"
+    [2]=>
+    float(-7.89)
+  }
+  [6]=>
+  array(3) {
+    [0]=>
+    string(7) "Boolean"
+    [1]=>
+    string(4) "True"
+    [2]=>
+    bool(true)
+  }
+  [7]=>
+  array(3) {
+    [0]=>
+    string(7) "Boolean"
+    [1]=>
+    string(5) "False"
+    [2]=>
+    bool(false)
+  }
+  [8]=>
+  array(3) {
+    [0]=>
+    string(9) "Date/Time"
+    [1]=>
+    string(4) "Date"
+    [2]=>
+    string(10) "2023-08-24"
+  }
+  [9]=>
+  array(3) {
+    [0]=>
+    string(9) "Date/Time"
+    [1]=>
+    string(4) "Time"
+    [2]=>
+    string(7) "4:59:47"
+  }
+  [10]=>
+  array(3) {
+    [0]=>
+    string(9) "Date/Time"
+    [1]=>
+    string(13) "Date and Time"
+    [2]=>
+    string(12) "24/8/23 4:59"
+  }
+}
+05:59:47 Peak memory usage: 6.75 MB
+05:59:47 Done writing file
+File has been created in /srv/PHPExcel
+
+
+============== TEST ==============
+Test name: 03formulas.php
+In cwd: /srv/PHPExcel/Tests/03formulas.php 
+
+05:59:47 Create new PHPExcel object
+05:59:47 Set document properties
+05:59:47 Add some data
+05:59:47 Sum of Range #1 is 23
+05:59:47 Sum of Range #2 is 33
+05:59:47 Sum of both Ranges is 56
+05:59:47 Minimum value in either Range is 3
+05:59:47 Maximum value in either Range is 17
+05:59:47 Average value of both Ranges is 9.333333333333334
+05:59:47 Rename worksheet
+05:59:47 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 04printing.php
+In cwd: /srv/PHPExcel/Tests/04printing.php 
+
+05:59:47 Create new PHPExcel object
+05:59:47 Set document properties
+05:59:47 Add some data
+05:59:47 Set header/footer
+05:59:47 Add a drawing to the header
+05:59:47 Set page orientation and size
+05:59:47 Rename worksheet
+05:59:47 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 05featuredemo.php
+In cwd: /srv/PHPExcel/Tests/05featuredemo.php 
+
+05:59:47 Create new PHPExcel object
+05:59:47 Set document properties
+05:59:47 Add some data
+05:59:47 Add comments
+05:59:47 Add rich-text string
+05:59:47 Merge cells
+05:59:47 Protect cells
+05:59:47 Set cell number formats
+05:59:47 Set column widths
+05:59:47 Set fonts
+05:59:47 Set alignments
+05:59:47 Set thin black border outline around column
+05:59:47 Set thick brown border outline around Total
+05:59:47 Set fills
+05:59:47 Set style for header row using alternative method
+05:59:48 Unprotect a cell
+05:59:48 Add a hyperlink to the sheet
+05:59:48 Add a drawing to the worksheet
+05:59:48 Add a drawing to the worksheet
+05:59:48 Add a drawing to the worksheet
+05:59:48 Play around with inserting and removing rows and columns
+05:59:48 Set header/footer
+05:59:48 Set page orientation and size
+05:59:48 Rename first worksheet
+05:59:48 Create a second Worksheet object
+05:59:48 Add some data
+05:59:48 Set the worksheet tab color
+05:59:48 Set alignments
+05:59:48 Set column widths
+05:59:48 Set fonts
+05:59:48 Add a drawing to the worksheet
+05:59:48 Set page orientation and size
+05:59:48 Rename second worksheet
+05:59:48 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 06largescale.php
+In cwd: /srv/PHPExcel/Tests/06largescale.php 
+
+05:59:48 Create new PHPExcel object
+05:59:48 Set properties
+05:59:48 Add data
+05:59:48 Hide 'Phone' and 'fax' columns
+05:59:48 Set outline levels
+05:59:48 Freeze panes
+05:59:48 Rows to repeat at top
+05:59:48 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 06largescale-xls.php
+In cwd: /srv/PHPExcel/Tests/06largescale-xls.php 
+
+05:59:48 Create new PHPExcel object
+05:59:48 Set properties
+05:59:48 Add data
+05:59:48 Hide 'Phone' and 'fax' columns
+05:59:48 Set outline levels
+05:59:48 Freeze panes
+05:59:48 Rows to repeat at top
+05:59:49 Write to Excel5 format
+05:59:50 File written to 06largescale-xls.xls
+05:59:50 Peak memory usage: 32.25 MB
+05:59:50 Done writing file
+File has been created in /srv/PHPExcel
+
+
+============== TEST ==============
+Test name: 07reader.php
+In cwd: /srv/PHPExcel/Tests/07reader.php 
+
+Please run 05featuredemo.php first.
+
+
+============== TEST ==============
+Test name: 08conditionalformatting.php
+In cwd: /srv/PHPExcel/Tests/08conditionalformatting.php 
+
+05:59:50 Create new PHPExcel object
+05:59:50 Set document properties
+05:59:50 Add some data
+05:59:50 Set column widths
+05:59:50 Add conditional formatting
+05:59:50 Duplicate the conditional formatting across a range of cells
+05:59:50 Set fonts
+05:59:50 Set header/footer
+05:59:50 Set page orientation and size
+05:59:50 Rename worksheet
+05:59:50 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 09pagebreaks.php
+In cwd: /srv/PHPExcel/Tests/09pagebreaks.php 
+
+05:59:50 Create new PHPExcel object
+05:59:50 Set document properties
+05:59:50 Add data and page breaks
+05:59:50 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 10autofilter.php
+In cwd: /srv/PHPExcel/Tests/10autofilter.php 
+
+`05:59:50 Create new PHPExcel object
+05:59:50 Set document properties
+05:59:50 Add data
+05:59:50 Set title row bold
+05:59:50 Set autofilter
+05:59:50 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 10autofilter-selection-1.php
+In cwd: /srv/PHPExcel/Tests/10autofilter-selection-1.php 
+
+05:59:50 Create new PHPExcel object
+05:59:50 Set document properties
+05:59:50 Add data
+05:59:51 Set styling
+05:59:51 Set autofilter range
+05:59:51 Set active filters
+05:59:51 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 10autofilter-selection-2.php
+In cwd: /srv/PHPExcel/Tests/10autofilter-selection-2.php 
+
+05:59:52 Create new PHPExcel object
+05:59:52 Set document properties
+05:59:52 Add data
+05:59:53 Set styling
+05:59:53 Set autofilter range
+05:59:53 Set active filters
+05:59:53 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 11documentsecurity.php
+In cwd: /srv/PHPExcel/Tests/11documentsecurity.php 
+
+05:59:53 Create new PHPExcel object
+05:59:53 Set document properties
+05:59:53 Add some data
+05:59:53 Rename worksheet
+05:59:53 Set document security
+05:59:53 Set sheet security
+05:59:53 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 11documentsecurity-xls.php
+In cwd: /srv/PHPExcel/Tests/11documentsecurity-xls.php 
+
+05:59:53 Create new PHPExcel object
+05:59:53 Set document properties
+05:59:53 Add some data
+05:59:53 Rename worksheet
+05:59:53 Set document security
+05:59:53 Set sheet security
+05:59:53 Write to Excel5 format
+05:59:53 File written to 11documentsecurity-xls.xls
+05:59:53 Peak memory usage: 5.25 MB
+05:59:53 Done writing file
+File has been created in /srv/PHPExcel
+
+
+============== TEST ==============
+Test name: 13calculation.php
+In cwd: /srv/PHPExcel/Tests/13calculation.php 
+
+05:59:53 List implemented functions
+Array
+(
+    [0] => ABS
+    [1] => ACCRINT
+    [2] => ACCRINTM
+    [3] => ACOS
+    [4] => ACOSH
+    [5] => ADDRESS
+    [6] => AMORDEGRC
+    [7] => AMORLINC
+    [8] => AND
+    [9] => ASIN
+    [10] => ASINH
+    [11] => ATAN
+    [12] => ATAN2
+    [13] => ATANH
+    [14] => AVEDEV
+    [15] => AVERAGE
+    [16] => AVERAGEA
+    [17] => AVERAGEIF
+    [18] => BESSELI
+    [19] => BESSELJ
+    [20] => BESSELK
+    [21] => BESSELY
+    [22] => BETADIST
+    [23] => BETAINV
+    [24] => BIN2DEC
+    [25] => BIN2HEX
+    [26] => BIN2OCT
+    [27] => BINOMDIST
+    [28] => CEILING
+    [29] => CHAR
+    [30] => CHIDIST
+    [31] => CHIINV
+    [32] => CHOOSE
+    [33] => CLEAN
+    [34] => CODE
+    [35] => COLUMN
+    [36] => COLUMNS
+    [37] => COMBIN
+    [38] => COMPLEX
+    [39] => CONCATENATE
+    [40] => CONFIDENCE
+    [41] => CONVERT
+    [42] => CORREL
+    [43] => COS
+    [44] => COSH
+    [45] => COUNT
+    [46] => COUNTA
+    [47] => COUNTBLANK
+    [48] => COUNTIF
+    [49] => COUPDAYBS
+    [50] => COUPDAYS
+    [51] => COUPDAYSNC
+    [52] => COUPNCD
+    [53] => COUPNUM
+    [54] => COUPPCD
+    [55] => COVAR
+    [56] => CRITBINOM
+    [57] => CUMIPMT
+    [58] => CUMPRINC
+    [59] => DATE
+    [60] => DATEDIF
+    [61] => DATEVALUE
+    [62] => DAVERAGE
+    [63] => DAY
+    [64] => DAYS360
+    [65] => DB
+    [66] => DCOUNT
+    [67] => DCOUNTA
+    [68] => DDB
+    [69] => DEC2BIN
+    [70] => DEC2HEX
+    [71] => DEC2OCT
+    [72] => DEGREES
+    [73] => DELTA
+    [74] => DEVSQ
+    [75] => DGET
+    [76] => DISC
+    [77] => DMAX
+    [78] => DMIN
+    [79] => DOLLAR
+    [80] => DOLLARDE
+    [81] => DOLLARFR
+    [82] => DPRODUCT
+    [83] => DSTDEV
+    [84] => DSTDEVP
+    [85] => DSUM
+    [86] => DVAR
+    [87] => DVARP
+    [88] => EDATE
+    [89] => EFFECT
+    [90] => EOMONTH
+    [91] => ERF
+    [92] => ERFC
+    [93] => ERROR.TYPE
+    [94] => EVEN
+    [95] => EXP
+    [96] => EXPONDIST
+    [97] => FACT
+    [98] => FACTDOUBLE
+    [99] => FALSE
+    [100] => FIND
+    [101] => FINDB
+    [102] => FISHER
+    [103] => FISHERINV
+    [104] => FIXED
+    [105] => FLOOR
+    [106] => FORECAST
+    [107] => FV
+    [108] => FVSCHEDULE
+    [109] => GAMMADIST
+    [110] => GAMMAINV
+    [111] => GAMMALN
+    [112] => GCD
+    [113] => GEOMEAN
+    [114] => GESTEP
+    [115] => GROWTH
+    [116] => HARMEAN
+    [117] => HEX2BIN
+    [118] => HEX2DEC
+    [119] => HEX2OCT
+    [120] => HOUR
+    [121] => HYPERLINK
+    [122] => HYPGEOMDIST
+    [123] => IF
+    [124] => IFERROR
+    [125] => IMABS
+    [126] => IMAGINARY
+    [127] => IMARGUMENT
+    [128] => IMCONJUGATE
+    [129] => IMCOS
+    [130] => IMDIV
+    [131] => IMEXP
+    [132] => IMLN
+    [133] => IMLOG10
+    [134] => IMLOG2
+    [135] => IMPOWER
+    [136] => IMPRODUCT
+    [137] => IMREAL
+    [138] => IMSIN
+    [139] => IMSQRT
+    [140] => IMSUB
+    [141] => IMSUM
+    [142] => INDEX
+    [143] => INDIRECT
+    [144] => INT
+    [145] => INTERCEPT
+    [146] => INTRATE
+    [147] => IPMT
+    [148] => IRR
+    [149] => ISBLANK
+    [150] => ISERR
+    [151] => ISERROR
+    [152] => ISEVEN
+    [153] => ISLOGICAL
+    [154] => ISNA
+    [155] => ISNONTEXT
+    [156] => ISNUMBER
+    [157] => ISODD
+    [158] => ISPMT
+    [159] => ISTEXT
+    [160] => KURT
+    [161] => LARGE
+    [162] => LCM
+    [163] => LEFT
+    [164] => LEFTB
+    [165] => LEN
+    [166] => LENB
+    [167] => LINEST
+    [168] => LN
+    [169] => LOG
+    [170] => LOG10
+    [171] => LOGEST
+    [172] => LOGINV
+    [173] => LOGNORMDIST
+    [174] => LOOKUP
+    [175] => LOWER
+    [176] => MATCH
+    [177] => MAX
+    [178] => MAXA
+    [179] => MAXIF
+    [180] => MDETERM
+    [181] => MEDIAN
+    [182] => MID
+    [183] => MIDB
+    [184] => MIN
+    [185] => MINA
+    [186] => MINIF
+    [187] => MINUTE
+    [188] => MINVERSE
+    [189] => MIRR
+    [190] => MMULT
+    [191] => MOD
+    [192] => MODE
+    [193] => MONTH
+    [194] => MROUND
+    [195] => MULTINOMIAL
+    [196] => N
+    [197] => NA
+    [198] => NEGBINOMDIST
+    [199] => NETWORKDAYS
+    [200] => NOMINAL
+    [201] => NORMDIST
+    [202] => NORMINV
+    [203] => NORMSDIST
+    [204] => NORMSINV
+    [205] => NOT
+    [206] => NOW
+    [207] => NPER
+    [208] => NPV
+    [209] => OCT2BIN
+    [210] => OCT2DEC
+    [211] => OCT2HEX
+    [212] => ODD
+    [213] => OFFSET
+    [214] => OR
+    [215] => PEARSON
+    [216] => PERCENTILE
+    [217] => PERCENTRANK
+    [218] => PERMUT
+    [219] => PI
+    [220] => PMT
+    [221] => POISSON
+    [222] => POWER
+    [223] => PPMT
+    [224] => PRICE
+    [225] => PRICEDISC
+    [226] => PRICEMAT
+    [227] => PRODUCT
+    [228] => PROPER
+    [229] => PV
+    [230] => QUARTILE
+    [231] => QUOTIENT
+    [232] => RADIANS
+    [233] => RAND
+    [234] => RANDBETWEEN
+    [235] => RANK
+    [236] => RATE
+    [237] => RECEIVED
+    [238] => REPLACE
+    [239] => REPLACEB
+    [240] => REPT
+    [241] => RIGHT
+    [242] => RIGHTB
+    [243] => ROMAN
+    [244] => ROUND
+    [245] => ROUNDDOWN
+    [246] => ROUNDUP
+    [247] => ROW
+    [248] => ROWS
+    [249] => RSQ
+    [250] => SEARCH
+    [251] => SEARCHB
+    [252] => SECOND
+    [253] => SERIESSUM
+    [254] => SIGN
+    [255] => SIN
+    [256] => SINH
+    [257] => SKEW
+    [258] => SLN
+    [259] => SLOPE
+    [260] => SMALL
+    [261] => SQRT
+    [262] => SQRTPI
+    [263] => STANDARDIZE
+    [264] => STDEV
+    [265] => STDEVA
+    [266] => STDEVP
+    [267] => STDEVPA
+    [268] => STEYX
+    [269] => SUBSTITUTE
+    [270] => SUBTOTAL
+    [271] => SUM
+    [272] => SUMIF
+    [273] => SUMPRODUCT
+    [274] => SUMSQ
+    [275] => SUMX2MY2
+    [276] => SUMX2PY2
+    [277] => SUMXMY2
+    [278] => SYD
+    [279] => T
+    [280] => TAN
+    [281] => TANH
+    [282] => TBILLEQ
+    [283] => TBILLPRICE
+    [284] => TBILLYIELD
+    [285] => TDIST
+    [286] => TEXT
+    [287] => TIME
+    [288] => TIMEVALUE
+    [289] => TINV
+    [290] => TODAY
+    [291] => TRANSPOSE
+    [292] => TREND
+    [293] => TRIM
+    [294] => TRIMMEAN
+    [295] => TRUE
+    [296] => TRUNC
+    [297] => TYPE
+    [298] => UPPER
+    [299] => VAR
+    [300] => VARA
+    [301] => VARP
+    [302] => VARPA
+    [303] => VERSION
+    [304] => VLOOKUP
+    [305] => WEEKDAY
+    [306] => WEEKNUM
+    [307] => WEIBULL
+    [308] => WORKDAY
+    [309] => XIRR
+    [310] => XNPV
+    [311] => YEAR
+    [312] => YEARFRAC
+    [313] => YIELDDISC
+    [314] => YIELDMAT
+    [315] => ZTEST
+)
+05:59:53 Create new PHPExcel object
+05:59:53 Add some data and formulas
+05:59:53 Calculated data
+Value of B14 [=COUNT(B2:B12)]: 7
+Value of B15 [=SUM(B2:B12)]: 64
+Value of B16 [=MAX(B2:B12)]: 22
+Value of B17 [=MIN(B2:B12)]: 2
+Value of B18 [=AVERAGE(B2:B12)]: 9.142857142857142
+Value of B19 [=MEDIAN(B2:B12)]: 8
+Value of B20 [=MODE(B2:B12)]: #N/A
+Value of B22 [=COUNTA(B2:B12)]: 10
+Value of B23 [=MAXA(B2:B12)]: 22
+Value of B24 [=MINA(B2:B12)]: 0
+Value of B26 [=STDEV(B2:B12)]: 6.618876325292973
+Value of B27 [=STDEVA(B2:B12)]: 6.883958809354461
+Value of B28 [=STDEVP(B2:B12)]: 6.127888739864919
+Value of B29 [=STDEVPA(B2:B12)]: 6.530696746902279
+Value of B31 [=DEVSQ(B2:B12)]: 262.8571428571429
+Value of B32 [=VAR(B2:B12)]: 47.44444444444444
+Value of B33 [=VARA(B2:B12)]: 47.38888888888889
+Value of B34 [=VARP(B2:B12)]: 42.17283950617284
+Value of B35 [=VARPA(B2:B12)]: 42.65
+Value of B37 [=DATE(2007, 12, 21)]: 39437
+Value of B38 [=DATEDIF( DATE(2007, 12, 21), DATE(2007, 12, 22), "D" )]: 1
+Value of B39 [=DATEVALUE("01-Feb-2006 10:06 AM")]: 38749
+Value of B40 [=DAY( DATE(2006, 1, 2) )]: 2
+Value of B41 [=DAYS360( DATE(2002, 2, 3), DATE(2005, 5, 31) )]: 1198
+Value of C14 [=COUNT(C2:C12)]: 11
+Value of C15 [=SUM(C2:C12)]: 30
+Value of C16 [=MAX(C2:C12)]: 4
+Value of C17 [=MIN(C2:C12)]: 0
+Value of C18 [=AVERAGE(C2:C12)]: 2.727272727272727
+Value of C19 [=MEDIAN(C2:C12)]: 3
+Value of C20 [=MODE(C2:C12)]: 4
+Value of C22 [=COUNTA(C2:C12)]: 11
+Value of C23 [=MAXA(C2:C12)]: 4
+Value of C24 [=MINA(C2:C12)]: 0
+Value of C26 [=STDEV(C2:C12)]: 1.348399724926484
+Value of C27 [=STDEVA(C2:C12)]: 1.348399724926484
+Value of C28 [=STDEVP(C2:C12)]: 1.28564869306645
+Value of C29 [=STDEVPA(C2:C12)]: 1.28564869306645
+Value of C31 [=DEVSQ(C2:C12)]: 18.18181818181818
+Value of C32 [=VAR(C2:C12)]: 1.818181818181818
+Value of C33 [=VARA(C2:C12)]: 1.818181818181818
+Value of C34 [=VARP(C2:C12)]: 1.652892561983471
+Value of C35 [=VARPA(C2:C12)]: 1.652892561983471
+Value of D14 [=((D2 * D3) + D4) & " should be 10"]: 10 should be 10
+Value of E14 [=PI()]: 3.141592653589793
+Value of E15 [=RAND()]: 0.2578883
+Value of E16 [=RANDBETWEEN(5, 10)]: 7
+Value of F17 [=COUNT(B2:C12)]: 18
+Value of F18 [=SUM(B2:C12)]: 94
+Value of F19 [=MAX(B2:C12)]: 22
+Value of F20 [=MIN(B2:C12)]: 0
+Value of F21 [=AVERAGE(B2:C12)]: 5.222222222222222
+Value of F22 [=MEDIAN(B2:C12)]: 4
+Value of F23 [=MODE(B2:C12)]: 4
+05:59:53 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 14excel5.php
+In cwd: /srv/PHPExcel/Tests/14excel5.php 
+
+05:59:53 Create new PHPExcel object
+05:59:53 Set document properties
+05:59:53 Add some data
+05:59:53 Add comments
+05:59:53 Add rich-text string
+05:59:53 Merge cells
+05:59:53 Protect cells
+05:59:53 Set cell number formats
+05:59:53 Set column widths
+05:59:53 Set fonts
+05:59:53 Set alignments
+05:59:53 Set thin black border outline around column
+05:59:53 Set thick brown border outline around Total
+05:59:53 Set fills
+05:59:53 Set style for header row using alternative method
+05:59:53 Unprotect a cell
+05:59:53 Add a hyperlink to the sheet
+05:59:53 Add a drawing to the worksheet
+05:59:53 Add a drawing to the worksheet
+05:59:53 Add a drawing to the worksheet
+05:59:53 Play around with inserting and removing rows and columns
+05:59:54 Set header/footer
+05:59:54 Set page orientation and size
+05:59:54 Rename first worksheet
+05:59:54 Create a second Worksheet object
+05:59:54 Add some data
+05:59:54 Set the worksheet tab color
+05:59:54 Set alignments
+05:59:54 Set column widths
+05:59:54 Set fonts
+05:59:54 Add a drawing to the worksheet
+05:59:54 Set page orientation and size
+05:59:54 Rename second worksheet
+05:59:54 Write to Excel5 format
+05:59:54 File written to 14excel5.xls
+05:59:54 Peak memory usage: 6.5 MB
+05:59:54 Done writing file
+File has been created in /srv/PHPExcel
+
+
+============== TEST ==============
+Test name: 15datavalidation.php
+In cwd: /srv/PHPExcel/Tests/15datavalidation.php 
+
+05:59:54 Create new PHPExcel object
+05:59:54 Set document properties
+05:59:54 Add data
+05:59:54 Set data validation
+05:59:54 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 15datavalidation-xls.php
+In cwd: /srv/PHPExcel/Tests/15datavalidation-xls.php 
+
+05:59:54 Create new PHPExcel object
+05:59:54 Set document properties
+05:59:54 Add data
+05:59:54 Set data validation
+05:59:54 Write to Excel5 format
+05:59:54 File written to 15datavalidation-xls.xls
+05:59:54 Peak memory usage: 5 MB
+05:59:54 Done writing file
+File has been created in /srv/PHPExcel
+
+
+============== TEST ==============
+Test name: 16csv.php
+In cwd: /srv/PHPExcel/Tests/16csv.php 
+
+05:59:54 Create new PHPExcel object
+05:59:54 Set document properties
+05:59:54 Add some data
+05:59:54 Add comments
+05:59:54 Add rich-text string
+05:59:54 Merge cells
+05:59:54 Protect cells
+05:59:54 Set cell number formats
+05:59:54 Set column widths
+05:59:54 Set fonts
+05:59:54 Set alignments
+05:59:54 Set thin black border outline around column
+05:59:54 Set thick brown border outline around Total
+05:59:54 Set fills
+05:59:54 Set style for header row using alternative method
+05:59:54 Unprotect a cell
+05:59:54 Add a hyperlink to the sheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Play around with inserting and removing rows and columns
+05:59:54 Set header/footer
+05:59:54 Set page orientation and size
+05:59:54 Rename first worksheet
+05:59:54 Create a second Worksheet object
+05:59:54 Add some data
+05:59:54 Set the worksheet tab color
+05:59:54 Set alignments
+05:59:54 Set column widths
+05:59:54 Set fonts
+05:59:54 Add a drawing to the worksheet
+05:59:54 Set page orientation and size
+05:59:54 Rename second worksheet
+05:59:54 Write to CSV format
+05:59:54 File written to 16csv.csv
+05:59:54 Read from CSV format
+05:59:54 File read from 16csv.csv
+05:59:54 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 17html.php
+In cwd: /srv/PHPExcel/Tests/17html.php 
+
+05:59:54 Create new PHPExcel object
+05:59:54 Set document properties
+05:59:54 Add some data
+05:59:54 Add comments
+05:59:54 Add rich-text string
+05:59:54 Merge cells
+05:59:54 Protect cells
+05:59:54 Set cell number formats
+05:59:54 Set column widths
+05:59:54 Set fonts
+05:59:54 Set alignments
+05:59:54 Set thin black border outline around column
+05:59:54 Set thick brown border outline around Total
+05:59:54 Set fills
+05:59:54 Set style for header row using alternative method
+05:59:54 Unprotect a cell
+05:59:54 Add a hyperlink to the sheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Play around with inserting and removing rows and columns
+05:59:54 Set header/footer
+05:59:54 Set page orientation and size
+05:59:54 Rename first worksheet
+05:59:54 Create a second Worksheet object
+05:59:54 Add some data
+05:59:54 Set the worksheet tab color
+05:59:54 Set alignments
+05:59:54 Set column widths
+05:59:54 Set fonts
+05:59:54 Add a drawing to the worksheet
+05:59:54 Set page orientation and size
+05:59:54 Rename second worksheet
+05:59:54 Write to HTML format
+05:59:54 File written to 17html.htm
+05:59:54 Peak memory usage: 5 MB
+05:59:54 Done writing file
+File has been created in /srv/PHPExcel
+
+
+============== TEST ==============
+Test name: 18extendedcalculation.php
+In cwd: /srv/PHPExcel/Tests/18extendedcalculation.php 
+
+05:59:54 List implemented functions
+Array
+(
+    [0] => ABS
+    [1] => ACCRINT
+    [2] => ACCRINTM
+    [3] => ACOS
+    [4] => ACOSH
+    [5] => ADDRESS
+    [6] => AMORDEGRC
+    [7] => AMORLINC
+    [8] => AND
+    [9] => ASIN
+    [10] => ASINH
+    [11] => ATAN
+    [12] => ATAN2
+    [13] => ATANH
+    [14] => AVEDEV
+    [15] => AVERAGE
+    [16] => AVERAGEA
+    [17] => AVERAGEIF
+    [18] => BESSELI
+    [19] => BESSELJ
+    [20] => BESSELK
+    [21] => BESSELY
+    [22] => BETADIST
+    [23] => BETAINV
+    [24] => BIN2DEC
+    [25] => BIN2HEX
+    [26] => BIN2OCT
+    [27] => BINOMDIST
+    [28] => CEILING
+    [29] => CHAR
+    [30] => CHIDIST
+    [31] => CHIINV
+    [32] => CHOOSE
+    [33] => CLEAN
+    [34] => CODE
+    [35] => COLUMN
+    [36] => COLUMNS
+    [37] => COMBIN
+    [38] => COMPLEX
+    [39] => CONCATENATE
+    [40] => CONFIDENCE
+    [41] => CONVERT
+    [42] => CORREL
+    [43] => COS
+    [44] => COSH
+    [45] => COUNT
+    [46] => COUNTA
+    [47] => COUNTBLANK
+    [48] => COUNTIF
+    [49] => COUPDAYBS
+    [50] => COUPDAYS
+    [51] => COUPDAYSNC
+    [52] => COUPNCD
+    [53] => COUPNUM
+    [54] => COUPPCD
+    [55] => COVAR
+    [56] => CRITBINOM
+    [57] => CUMIPMT
+    [58] => CUMPRINC
+    [59] => DATE
+    [60] => DATEDIF
+    [61] => DATEVALUE
+    [62] => DAVERAGE
+    [63] => DAY
+    [64] => DAYS360
+    [65] => DB
+    [66] => DCOUNT
+    [67] => DCOUNTA
+    [68] => DDB
+    [69] => DEC2BIN
+    [70] => DEC2HEX
+    [71] => DEC2OCT
+    [72] => DEGREES
+    [73] => DELTA
+    [74] => DEVSQ
+    [75] => DGET
+    [76] => DISC
+    [77] => DMAX
+    [78] => DMIN
+    [79] => DOLLAR
+    [80] => DOLLARDE
+    [81] => DOLLARFR
+    [82] => DPRODUCT
+    [83] => DSTDEV
+    [84] => DSTDEVP
+    [85] => DSUM
+    [86] => DVAR
+    [87] => DVARP
+    [88] => EDATE
+    [89] => EFFECT
+    [90] => EOMONTH
+    [91] => ERF
+    [92] => ERFC
+    [93] => ERROR.TYPE
+    [94] => EVEN
+    [95] => EXP
+    [96] => EXPONDIST
+    [97] => FACT
+    [98] => FACTDOUBLE
+    [99] => FALSE
+    [100] => FIND
+    [101] => FINDB
+    [102] => FISHER
+    [103] => FISHERINV
+    [104] => FIXED
+    [105] => FLOOR
+    [106] => FORECAST
+    [107] => FV
+    [108] => FVSCHEDULE
+    [109] => GAMMADIST
+    [110] => GAMMAINV
+    [111] => GAMMALN
+    [112] => GCD
+    [113] => GEOMEAN
+    [114] => GESTEP
+    [115] => GROWTH
+    [116] => HARMEAN
+    [117] => HEX2BIN
+    [118] => HEX2DEC
+    [119] => HEX2OCT
+    [120] => HOUR
+    [121] => HYPERLINK
+    [122] => HYPGEOMDIST
+    [123] => IF
+    [124] => IFERROR
+    [125] => IMABS
+    [126] => IMAGINARY
+    [127] => IMARGUMENT
+    [128] => IMCONJUGATE
+    [129] => IMCOS
+    [130] => IMDIV
+    [131] => IMEXP
+    [132] => IMLN
+    [133] => IMLOG10
+    [134] => IMLOG2
+    [135] => IMPOWER
+    [136] => IMPRODUCT
+    [137] => IMREAL
+    [138] => IMSIN
+    [139] => IMSQRT
+    [140] => IMSUB
+    [141] => IMSUM
+    [142] => INDEX
+    [143] => INDIRECT
+    [144] => INT
+    [145] => INTERCEPT
+    [146] => INTRATE
+    [147] => IPMT
+    [148] => IRR
+    [149] => ISBLANK
+    [150] => ISERR
+    [151] => ISERROR
+    [152] => ISEVEN
+    [153] => ISLOGICAL
+    [154] => ISNA
+    [155] => ISNONTEXT
+    [156] => ISNUMBER
+    [157] => ISODD
+    [158] => ISPMT
+    [159] => ISTEXT
+    [160] => KURT
+    [161] => LARGE
+    [162] => LCM
+    [163] => LEFT
+    [164] => LEFTB
+    [165] => LEN
+    [166] => LENB
+    [167] => LINEST
+    [168] => LN
+    [169] => LOG
+    [170] => LOG10
+    [171] => LOGEST
+    [172] => LOGINV
+    [173] => LOGNORMDIST
+    [174] => LOOKUP
+    [175] => LOWER
+    [176] => MATCH
+    [177] => MAX
+    [178] => MAXA
+    [179] => MAXIF
+    [180] => MDETERM
+    [181] => MEDIAN
+    [182] => MID
+    [183] => MIDB
+    [184] => MIN
+    [185] => MINA
+    [186] => MINIF
+    [187] => MINUTE
+    [188] => MINVERSE
+    [189] => MIRR
+    [190] => MMULT
+    [191] => MOD
+    [192] => MODE
+    [193] => MONTH
+    [194] => MROUND
+    [195] => MULTINOMIAL
+    [196] => N
+    [197] => NA
+    [198] => NEGBINOMDIST
+    [199] => NETWORKDAYS
+    [200] => NOMINAL
+    [201] => NORMDIST
+    [202] => NORMINV
+    [203] => NORMSDIST
+    [204] => NORMSINV
+    [205] => NOT
+    [206] => NOW
+    [207] => NPER
+    [208] => NPV
+    [209] => OCT2BIN
+    [210] => OCT2DEC
+    [211] => OCT2HEX
+    [212] => ODD
+    [213] => OFFSET
+    [214] => OR
+    [215] => PEARSON
+    [216] => PERCENTILE
+    [217] => PERCENTRANK
+    [218] => PERMUT
+    [219] => PI
+    [220] => PMT
+    [221] => POISSON
+    [222] => POWER
+    [223] => PPMT
+    [224] => PRICE
+    [225] => PRICEDISC
+    [226] => PRICEMAT
+    [227] => PRODUCT
+    [228] => PROPER
+    [229] => PV
+    [230] => QUARTILE
+    [231] => QUOTIENT
+    [232] => RADIANS
+    [233] => RAND
+    [234] => RANDBETWEEN
+    [235] => RANK
+    [236] => RATE
+    [237] => RECEIVED
+    [238] => REPLACE
+    [239] => REPLACEB
+    [240] => REPT
+    [241] => RIGHT
+    [242] => RIGHTB
+    [243] => ROMAN
+    [244] => ROUND
+    [245] => ROUNDDOWN
+    [246] => ROUNDUP
+    [247] => ROW
+    [248] => ROWS
+    [249] => RSQ
+    [250] => SEARCH
+    [251] => SEARCHB
+    [252] => SECOND
+    [253] => SERIESSUM
+    [254] => SIGN
+    [255] => SIN
+    [256] => SINH
+    [257] => SKEW
+    [258] => SLN
+    [259] => SLOPE
+    [260] => SMALL
+    [261] => SQRT
+    [262] => SQRTPI
+    [263] => STANDARDIZE
+    [264] => STDEV
+    [265] => STDEVA
+    [266] => STDEVP
+    [267] => STDEVPA
+    [268] => STEYX
+    [269] => SUBSTITUTE
+    [270] => SUBTOTAL
+    [271] => SUM
+    [272] => SUMIF
+    [273] => SUMPRODUCT
+    [274] => SUMSQ
+    [275] => SUMX2MY2
+    [276] => SUMX2PY2
+    [277] => SUMXMY2
+    [278] => SYD
+    [279] => T
+    [280] => TAN
+    [281] => TANH
+    [282] => TBILLEQ
+    [283] => TBILLPRICE
+    [284] => TBILLYIELD
+    [285] => TDIST
+    [286] => TEXT
+    [287] => TIME
+    [288] => TIMEVALUE
+    [289] => TINV
+    [290] => TODAY
+    [291] => TRANSPOSE
+    [292] => TREND
+    [293] => TRIM
+    [294] => TRIMMEAN
+    [295] => TRUE
+    [296] => TRUNC
+    [297] => TYPE
+    [298] => UPPER
+    [299] => VAR
+    [300] => VARA
+    [301] => VARP
+    [302] => VARPA
+    [303] => VERSION
+    [304] => VLOOKUP
+    [305] => WEEKDAY
+    [306] => WEEKNUM
+    [307] => WEIBULL
+    [308] => WORKDAY
+    [309] => XIRR
+    [310] => XNPV
+    [311] => YEAR
+    [312] => YEARFRAC
+    [313] => YIELDDISC
+    [314] => YIELDMAT
+    [315] => ZTEST
+)
+05:59:54 Create new PHPExcel object
+05:59:54 Add some data
+05:59:54 Calculated data
+Value of B14 [=COUNT(B2:B12)]: 7
+05:59:54 Peak memory usage: 4 MB
+05:59:54 Done
+
+
+============== TEST ==============
+Test name: 19namedrange.php
+In cwd: /srv/PHPExcel/Tests/19namedrange.php 
+
+05:59:54 Create new PHPExcel object
+05:59:54 Set document properties
+05:59:54 Add some data
+05:59:54 Define named ranges
+05:59:54 Rename named ranges
+05:59:54 Rename worksheet
+05:59:54 Create new Worksheet object
+05:59:54 Add some data
+05:59:54 Resolve range
+Cell B1 {=PersonFN}: Maarten
+Cell B3 {=PersonFN & " " & PersonLN}: Maarten Balliauw
+Cell Person!B1: Maarten
+05:59:54 Rename worksheet
+05:59:54 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 20readexcel5.php
+In cwd: /srv/PHPExcel/Tests/20readexcel5.php 
+
+Please run 14excel5.php first.
+
+
+============== TEST ==============
+Test name: 21pdf.php
+In cwd: /srv/PHPExcel/Tests/21pdf.php 
+
+05:59:54 Create new PHPExcel object
+05:59:54 Set document properties
+05:59:54 Add some data
+05:59:54 Add comments
+05:59:54 Add rich-text string
+05:59:54 Merge cells
+05:59:54 Protect cells
+05:59:54 Set cell number formats
+05:59:54 Set column widths
+05:59:54 Set fonts
+05:59:54 Set alignments
+05:59:54 Set thin black border outline around column
+05:59:54 Set thick brown border outline around Total
+05:59:54 Set fills
+05:59:54 Set style for header row using alternative method
+05:59:54 Unprotect a cell
+05:59:54 Add a hyperlink to the sheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Add a drawing to the worksheet
+05:59:54 Play around with inserting and removing rows and columns
+05:59:54 Set header/footer
+05:59:54 Set page orientation and size
+05:59:54 Rename first worksheet
+05:59:54 Create a second Worksheet object
+05:59:54 Add some data
+05:59:54 Set the worksheet tab color
+05:59:54 Set alignments
+05:59:54 Set column widths
+05:59:54 Set fonts
+05:59:54 Add a drawing to the worksheet
+05:59:54 Set page orientation and size
+05:59:54 Rename second worksheet
+05:59:54 Hide grid lines
+05:59:54 Set orientation to landscape
+05:59:54 Write to PDF format using DomPDF
+NOTICE: Please set the $rendererName and $rendererLibraryPath values
+at the top of this script as appropriate for your directory structure
+
+============== TEST ==============
+Test name: 22heavilyformatted.php
+In cwd: /srv/PHPExcel/Tests/22heavilyformatted.php 
+
+05:59:54 Create new PHPExcel object
+05:59:54 Set document properties
+05:59:54 Add some data
+05:59:54 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 23sharedstyles.php
+In cwd: /srv/PHPExcel/Tests/23sharedstyles.php 
+
+05:59:54 Create new PHPExcel object
+05:59:55 Set document properties
+05:59:55 Add some data
+05:59:55 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 24readfilter.php
+In cwd: /srv/PHPExcel/Tests/24readfilter.php 
+
+Please run 06largescale.php first.
+
+
+============== TEST ==============
+Test name: 25inmemoryimage.php
+In cwd: /srv/PHPExcel/Tests/25inmemoryimage.php 
+
+05:59:55 Create new PHPExcel object
+05:59:55 Set document properties
+05:59:55 Generate an image
+05:59:55 Add a drawing to the worksheet
+05:59:55 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 26utf8.php
+In cwd: /srv/PHPExcel/Tests/26utf8.php 
+
+05:59:55 Load Excel2007 template file
+05:59:55 Write to Excel5 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 27imagesexcel5.php
+In cwd: /srv/PHPExcel/Tests/27imagesexcel5.php 
+
+05:59:55 Load Excel2007 template file
+05:59:55 Write to Excel5 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 28iterator.php
+In cwd: /srv/PHPExcel/Tests/28iterator.php 
+
+Please run 05featuredemo.php first.
+
+
+============== TEST ==============
+Test name: 29advancedvaluebinder.php
+In cwd: /srv/PHPExcel/Tests/29advancedvaluebinder.php 
+
+
+Warning: date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /srv/PHPExcel/Tests/29advancedvaluebinder.php on line 41
+04:59:55 Set timezone
+04:59:55 Set value binder
+04:59:55 Create new PHPExcel object
+04:59:55 Set document properties
+04:59:55 Set default font
+04:59:55 Set column widths
+04:59:55 Add some data
+04:59:55 Rename worksheet
+04:59:55 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 30template.php
+In cwd: /srv/PHPExcel/Tests/30template.php 
+
+05:59:55 Load from Excel5 template
+05:59:55 Add new data to the template
+05:59:55 Write to Excel5 format
+05:59:55 File written to 30template.xls
+05:59:55 Peak memory usage: 7.75 MB
+05:59:55 Done writing file
+File has been created in /srv/PHPExcel
+
+
+============== TEST ==============
+Test name: 31docproperties_write.php
+In cwd: /srv/PHPExcel/Tests/31docproperties_write.php 
+
+05:59:55 Load Tests from Excel2007 file
+Call time to read Workbook was 0.0350 seconds
+05:59:55 Current memory usage: 3.75 MB
+05:59:55 Adjust properties
+05:59:55 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 31docproperties_write-xls.php
+In cwd: /srv/PHPExcel/Tests/31docproperties_write-xls.php 
+
+05:59:55 Load Tests from Excel5 file
+Call time to read Workbook was 0.0431 seconds
+05:59:55 Current memory usage: 4.5 MB
+05:59:55 Adjust properties
+05:59:55 Write to Excel5 format
+05:59:55 File written to 31docproperties_write-xls.xls
+05:59:55 Peak memory usage: 6.5 MB
+
+05:59:55 Reread Excel5 file
+05:59:55 Get properties
+Core Properties:
+    Created by - Mark Baker
+    Created on - 25-Aug-2010 at 10:15:11
+    Last Modified by - Mark Baker
+    Last Modified on - 07-Sep-2010 at 09:24:59
+    Title - Office 95 XLS Test Document
+    Subject - Office 95 XLS Test Document
+    Description - Test XLS document, generated using PHPExcel
+    Keywords: - office 95 biff php
+Extended (Application) Properties:
+    Category - Property Read Excel5
+    Company - PHPExcel at CodePlex
+    Manager - Maarten Balliauw
+Custom Properties:
+05:59:55 Peak memory usage: 6.5 MB
+
+
+============== TEST ==============
+Test name: 32chartreadwrite.php
+In cwd: /srv/PHPExcel/Tests/32chartreadwrite.php 
+
+
+Warning: include(PHPExcel/IOFactory.php): failed to open stream: No such file or directory in /srv/PHPExcel/Tests/32chartreadwrite.php on line 43
+
+Warning: include(): Failed opening 'PHPExcel/IOFactory.php' for inclusion (include_path='.:/usr/local/lib/php:../Classes/') in /srv/PHPExcel/Tests/32chartreadwrite.php on line 43
+05:59:55 Peak memory usage: 0.5 MB
+05:59:55 Done writing files
+Files have been created in /srv/PHPExcel
+
+
+============== TEST ==============
+Test name: 33chartcreate-area.php
+In cwd: /srv/PHPExcel/Tests/33chartcreate-area.php 
+
+05:59:55 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 33chartcreate-bar.php
+In cwd: /srv/PHPExcel/Tests/33chartcreate-bar.php 
+
+05:59:55 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 33chartcreate-bar-stacked.php
+In cwd: /srv/PHPExcel/Tests/33chartcreate-bar-stacked.php 
+
+05:59:56 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 33chartcreate-column.php
+In cwd: /srv/PHPExcel/Tests/33chartcreate-column.php 
+
+05:59:56 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 33chartcreate-column-2.php
+In cwd: /srv/PHPExcel/Tests/33chartcreate-column-2.php 
+
+05:59:56 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 33chartcreate-line.php
+In cwd: /srv/PHPExcel/Tests/33chartcreate-line.php 
+
+05:59:56 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: 34chartupdate.php
+In cwd: /srv/PHPExcel/Tests/34chartupdate.php 
+
+
+Warning: include(PHPExcel.php): failed to open stream: No such file or directory in /srv/PHPExcel/Tests/34chartupdate.php on line 43
+
+Warning: include(): Failed opening 'PHPExcel.php' for inclusion (include_path='.:/usr/local/lib/php:../Classes/') in /srv/PHPExcel/Tests/34chartupdate.php on line 43
+Please run 33chartcreate-bar.php first.
+
+
+============== TEST ==============
+Test name: OOCalcReader.php
+In cwd: /srv/PHPExcel/Tests/OOCalcReader.php 
+
+05:59:56 Load from OOCalc file
+Call time to read Workbook was 0.1088 seconds
+05:59:56 Current memory usage: 3.25 MB
+05:59:56 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: SylkReader.php
+In cwd: /srv/PHPExcel/Tests/SylkReader.php 
+
+05:59:56 Load from SYLK file
+05:59:56 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: Excel2003XMLReader.php
+In cwd: /srv/PHPExcel/Tests/Excel2003XMLReader.php 
+
+05:59:56 Load from Excel2003XML file
+Call time to read Workbook was 0.4779 seconds
+05:59:56 Current memory usage: 4.5 MB
+05:59:56 Write to Excel5 format
+05:59:57 File written to /srv/PHPExcel/Tests/Excel2003XMLReader.xls
+05:59:57 Peak memory usage: 7.25 MB
+05:59:57 Done writing file
+
+
+============== TEST ==============
+Test name: XMLReader.php
+In cwd: /srv/PHPExcel/Tests/XMLReader.php 
+
+05:59:57 Load from XML file
+Loading /srv/PHPExcel/Tests/XMLTest.xml using Excel2003XML Reader
+05:59:57 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+
+============== TEST ==============
+Test name: GnumericReader.php
+In cwd: /srv/PHPExcel/Tests/GnumericReader.php 
+
+05:59:57 Load from Gnumeric file
+Call time to read Workbook was 0.1851 seconds
+05:59:57 Current memory usage: 5.25 MB
+05:59:57 Write to Excel2007 format
+
+Parse error: syntax error, unexpected '?' in /srv/PHPExcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 759
+
+

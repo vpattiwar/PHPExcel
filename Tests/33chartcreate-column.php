@@ -40,7 +40,7 @@ date_default_timezone_set('Europe/London');
 set_include_path(get_include_path() . PATH_SEPARATOR . '../Classes/');
 
 /** PHPExcel */
-include 'PHPExcel.php';
+include '/srv/PHPExcel/Classes/PHPExcel.php';
 
 $objPHPExcel = new PHPExcel();
 $objWorksheet = $objPHPExcel->getActiveSheet();

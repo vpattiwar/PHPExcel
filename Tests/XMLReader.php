@@ -31,11 +31,11 @@ error_reporting(E_ALL);
 date_default_timezone_set('Europe/London');
 
 /** PHPExcel_IOFactory */
-require_once '../Classes/PHPExcel/IOFactory.php';
+require_once '/srv/PHPExcel/Classes/PHPExcel/IOFactory.php';
 
 
 echo date('H:i:s') , " Load from XML file" , PHP_EOL;
-$inputFileName = "XMLTest.xml";
+$inputFileName = "/srv/PHPExcel/Tests/XMLTest.xml";
 
 /**  Identify the type of $inputFileName  **/
 $inputFileType = PHPExcel_IOFactory::identify($inputFileName);

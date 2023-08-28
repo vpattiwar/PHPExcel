@@ -35,13 +35,13 @@ define('EOL',(PHP_SAPI == 'cli') ? PHP_EOL : '<br />');
 date_default_timezone_set('Europe/London');
 
 /** PHPExcel_IOFactory */
-require_once '../Classes/PHPExcel/IOFactory.php';
+require_once '/srv/PHPExcel/Classes/PHPExcel/IOFactory.php';
 
 
 
 echo date('H:i:s') , " Load from Excel5 template" , EOL;
 $objReader = PHPExcel_IOFactory::createReader('Excel5');
-$objPHPExcel = $objReader->load("templates/30template.xls");
+$objPHPExcel = $objReader->load("/srv/PHPExcel/Tests/templates/30template.xls");
 
 
 

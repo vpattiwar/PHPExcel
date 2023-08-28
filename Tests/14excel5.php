@@ -37,7 +37,7 @@ date_default_timezone_set('Europe/London');
 include "05featuredemo.inc.php";
 
 /** PHPExcel_IOFactory */
-require_once '../Classes/PHPExcel/IOFactory.php';
+require_once '/srv/PHPExcel/Classes/PHPExcel/IOFactory.php';
 
 
 echo date('H:i:s') , " Write to Excel5 format" , EOL;

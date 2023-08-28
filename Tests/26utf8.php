@@ -53,7 +53,7 @@ $rendererLibraryPath = '/php/libraries/PDF/' . $rendererLibrary;
 // Read from Excel2007 (.xlsx) template
 echo date('H:i:s') , " Load Excel2007 template file" , EOL;
 $objReader = PHPExcel_IOFactory::createReader('Excel2007');
-$objPHPExcel = $objReader->load("templates/26template.xlsx");
+$objPHPExcel = $objReader->load("/srv/PHPExcel/Tests/templates/26template.xlsx");
 
 /** at this point, we could do some manipulations with the template, but we skip this step */
 

@@ -31,13 +31,13 @@ error_reporting(E_ALL);
 date_default_timezone_set('Europe/London');
 
 /** PHPExcel_IOFactory */
-require_once '../Classes/PHPExcel/IOFactory.php';
+require_once '/srv/PHPExcel/Classes/PHPExcel/IOFactory.php';
 
 echo date('H:i:s') , " Load from OOCalc file" , PHP_EOL;
 $callStartTime = microtime(true);
 
 $objReader = PHPExcel_IOFactory::createReader('OOCalc');
-$objPHPExcel = $objReader->load("OOCalcTest.ods");
+$objPHPExcel = $objReader->load("/srv/PHPExcel/Tests/OOCalcTest.ods");
 
 
 $callEndTime = microtime(true);
