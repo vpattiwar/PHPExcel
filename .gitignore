@@ -5,3 +5,4 @@ unitTests/codeCoverage
 *.project
 /vendor/
 /runall-output.txt
+/.idea/
